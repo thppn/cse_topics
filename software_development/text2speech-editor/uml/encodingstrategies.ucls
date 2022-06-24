@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="encodingstrategies.AtBashEncoding" project="Text2SpeechEditor" 
+    file="/Text2SpeechEditor/src/encodingstrategies/AtBashEncoding.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="148" x="128" y="237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="encodingstrategies.EncodingStrategy" project="Text2SpeechEditor" 
+    file="/Text2SpeechEditor/src/encodingstrategies/EncodingStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="128" x="316" y="237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="encodingstrategies.StrategiesFactory" project="Text2SpeechEditor" 
+    file="/Text2SpeechEditor/src/encodingstrategies/StrategiesFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="179" x="200" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="encodingstrategies.TemplateEncoding" project="Text2SpeechEditor" 
+    file="/Text2SpeechEditor/src/encodingstrategies/TemplateEncoding.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="148" x="419" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="encodingstrategies.Rot13Encoding" project="Text2SpeechEditor" 
+    file="/Text2SpeechEditor/src/encodingstrategies/Rot13Encoding.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="148" x="484" y="237"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="7">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <realization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

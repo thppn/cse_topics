@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: burlywood;
+    font-family: "Courier New", Courier, monospace;
+}
+h1 {
+    font-size: 4rem;
+}
+button {
+    width: 25%;
+    height: 20%;
+    font-size: 2rem;
+    border: none;
+    color: black;
+    background-color: inherit;
+}
+button:hover {
+    color: white;
+    background-color:black;
+}
+.container {
+    border-style: solid;
+    background-color: rgb(190,190,190);
+}
+#text {
+    height: 3rem;
+    font-size: 3rem;
+    border-bottom-style: solid;
+    text-align: right;
+    
+}
+.table {
+    display: flex;
+    flex-flow: row wrap;
+    height: 20rem;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,22 @@
+program simple {
+    declare a, b, c, d;
+    function addOne(inout a, inout b) {
+    {
+        a := a +1;
+        b := b +1;
+        return a+b;
+    }}
+    {
+    a := 1;
+    b := 2;
+    d := addOne(inout a, inout b);
+    c := a+b;
+    if ( c <> d) then
+        print(1)
+    else 
+        print(0);
+
+    print(c);
+    print(d);
+    }
+}

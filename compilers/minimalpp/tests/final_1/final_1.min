@@ -1,0 +1,16 @@
+program main {
+    declare a,b,c;
+    function F(in a, inout b) {
+        {
+        b := a+1;
+        c:=4;
+        return a;
+        }
+    }
+    {
+    a := 1;
+    c := F(in a, inout b);
+    print(c);
+    print(b);
+    }
+}

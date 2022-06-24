@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="client.controllers.MainAppController" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/MainAppController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="762" y="190"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="client.controllers.ScatterChartPresenter" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/ScatterChartPresenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="251" y="342"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="client.controllers.ScatterChartController" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/ScatterChartController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="423" y="129"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="client.controllers.LineChartPresenter" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/LineChartPresenter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="624" y="486"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="client.controllers.AttributePairSelector" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/AttributePairSelector.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="894" y="553"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="client.controllers.NameGiverForDatasetController" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/NameGiverForDatasetController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1087" y="515"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="client.controllers.TableViewController" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/TableViewController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1413" y="477"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="client.controllers.FilterConstructor" project="csv-viewer" 
+    file="/csv-viewer/src/client/controllers/FilterConstructor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1240" y="180"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

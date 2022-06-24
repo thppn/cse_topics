@@ -1,0 +1,19 @@
+program fibonacci {
+    declare x,y,z, k;
+    {
+    x:=1;
+    y:=1;
+    z:=0;
+    input(k);
+    print(x);
+    print(y);
+    while(z < k ){
+        x:= x + y;
+        print(x);
+        z:=z+1;
+        y :=y +x ;
+        print(y);
+        z := z+1 ;
+        };
+    }
+}
