@@ -1,4 +1,4 @@
-# AI basic examples
+# AI examples
 * Uniform Cost Search
 * A* Search
 * Minimax for SOS Game
@@ -16,4 +16,5 @@ Minimax
 -----------
 
  Classic SOS Game (Java)
+ Logic Coin Game  (C)
    
