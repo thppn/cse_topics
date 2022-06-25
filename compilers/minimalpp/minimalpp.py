@@ -1,6 +1,3 @@
-#ATHANASIOS MINAS PAPANASTASIOU, 3057, cs03057
-#FEDON CHRISTAKIS, 3110, cs03110
-
 ##Define##
 words = ["program", "declare", "if", "else", "then", "while", 
 		"forcase", "when", "default", "not", "and", "or", "function",
