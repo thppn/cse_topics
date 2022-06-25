@@ -15,6 +15,6 @@ Uniform Cost Search & A* Search
 Minimax
 -----------
 
- Classic SOS Game (Java)
- Logic Coin Game  (C)
+ * Classic SOS Game (Java)
+ * Logic Coin Game  (C)
    
