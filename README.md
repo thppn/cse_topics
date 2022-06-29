@@ -8,6 +8,6 @@
 * OpenMP
 * MPI
 ### Software Development
-* Java, MVC, UML, Patters
+* Java, MVC, UML, Patterνs
 ### Web Development
 * HTML, CSS, Javascript
