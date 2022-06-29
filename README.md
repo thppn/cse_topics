@@ -1,5 +1,4 @@
 # cse_topics
-## Computer Science examples on several topics.
 ### Artificial Intelligence
 * Minimax
 * UCS
