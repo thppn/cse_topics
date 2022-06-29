@@ -1,6 +1,6 @@
 # Text2SpeechEditor
-###An application for writing documents and transforming them to audio.
-###In collaboration with [fedonch](https://github.com/fedonch).
+### An application for writing documents and transforming them to audio.
+### In collaboration with [fedonch](https://github.com/fedonch).
 
 Purpose
 -----------
