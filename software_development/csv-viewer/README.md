@@ -1,3 +1,5 @@
+
+In collaboration with [christosgm](https://github.com/christosgm).
 ## ΠΑΝΕΠΙΣΤΗΜΙΟ ΙΩΑΝΝΙΝΩΝ
 
 ## ΤΜΗΜΑ ΜΗΧ. Η/Υ & ΠΛΗΡΟΦΟΡΙΚΗΣ

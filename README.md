@@ -1,5 +1,4 @@
 # cse_topics
-## Computer Science examples on several topics.
 ### Artificial Intelligence
 * Minimax
 * UCS
@@ -9,6 +8,6 @@
 * OpenMP
 * MPI
 ### Software Development
-* Java, MVC, UML, Patters
+* Java, MVC, UML, Patterns
 ### Web Development
 * HTML, CSS, Javascript
